@@ -29,10 +29,10 @@ jobs:
         uses: nuget/setup-nuget@v1
 
       - name: Restore Packages
-        run: nuget restore LSTexpress.sln
+        run: nuget restore LSTexpress\LSTexpressCS\LSTexpress.sln
 
       - name: Build YimMenuAutoChs
-        run: msbuild.exe LSTexpress.sln /p:platform="x64" /p:configuration="Release"
+        run: msbuild.exe LSTexpress\LSTexpressCS\LSTexpress.sln /p:platform="x64" /p:configuration="Release"
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
