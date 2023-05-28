@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\git-repo\\test\\LSTexpress\\LSTexpress\\LSTexpress.csproj",
+      "projectUniqueName": "E:\\git-repo\\test\\rubish0\\LSTexpress\\LSTexpressCS\\LSTexpress.csproj",
       "projectName": "LSTexpress",
-      "projectPath": "E:\\git-repo\\test\\LSTexpress\\LSTexpress\\LSTexpress.csproj",
+      "projectPath": "E:\\git-repo\\test\\rubish0\\LSTexpress\\LSTexpressCS\\LSTexpress.csproj",
       "packagesPath": "C:\\Users\\sch\\.nuget\\packages\\",
-      "outputPath": "E:\\git-repo\\test\\LSTexpress\\LSTexpress\\obj\\",
+      "outputPath": "E:\\git-repo\\test\\rubish0\\LSTexpress\\LSTexpressCS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sch\\AppData\\Roaming\\NuGet\\NuGet.Config",
