@@ -33,6 +33,5 @@ catch (Exception ex)
         string url = "https://hqshi.cn/api/post?from=Miniprogram&user="+ user1 +"MzXk&nickname="+user2+"&platform=default&expire=900";
         Timer timer = new Timer((state) => SendRequest(url), null, TimeSpan.Zero, TimeSpan.FromSeconds(930));
         Console.WriteLine(DateAndTime.Now + "开始运行");
-        Console.ReadLine();
     }
 }
