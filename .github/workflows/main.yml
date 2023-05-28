@@ -37,5 +37,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: LSTexpress-CS
-          path: LSTexpress\
+          path: LSTexpress\LSTexpressCS\bin\Debug\net7.0\
         
