@@ -41,6 +41,8 @@ catch (Exception ex)
     static void Main(string[] args)
     {
         string user1, user2;
+        Console.WriteLine("始终保持自己在洛圣都Express的数据是新的");
+
         Console.WriteLine("1.请输入查询者ID(可不填直接回车)：");
         string inputs = Console.ReadLine();
         if (!string.IsNullOrWhiteSpace(inputs))
