@@ -10,13 +10,12 @@ class Program
     {
         string[] urls = new string[]
         {
-            "https://ghproxy.com/https://raw.githubusercontent.com/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip",
-            "https://fastly.jsdelivr.net/gh/CrazyZhang666/GTA5OnlineLua@main/Kiddion/AliceLua.zip",
-            "https://ghproxy.net/https://raw.githubusercontent.com/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip",
-            "https://raw.fastgit.ixmu.net/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip",
-            "https://gcore.jsdelivr.net/gh/CrazyZhang666/GTA5OnlineLua@main/Kiddion/AliceLua.zip",
-            "https://jsdelivr.b-cdn.net/gh/CrazyZhang666/GTA5OnlineLua@main/Kiddion/AliceLua.zip",
-            "https://github.moeyy.xyz/https://raw.githubusercontent.com/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip"
+      "https://blog.host3650.live/https://raw.githubusercontent.com/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip",
+      "https://ghproxy.net/https://raw.githubusercontent.com/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip",
+      "https://gcore.jsdelivr.net/gh/CrazyZhang666/GTA5OnlineLua@main/Kiddion/AliceLua.zip",
+      "https://jsdelivr.b-cdn.net/gh/CrazyZhang666/GTA5OnlineLua@main/Kiddion/AliceLua.zip",
+      "https://github.moeyy.xyz/https://raw.githubusercontent.com/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip",
+      "https://raw.githubusercontent.com/CrazyZhang666/GTA5OnlineLua/main/Kiddion/AliceLua.zip"
         };
 
         using (HttpClient httpClient = new HttpClient())
