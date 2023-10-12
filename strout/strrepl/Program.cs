@@ -8,8 +8,8 @@ class Program
     static void Main()
     {
         // 读取in.txt和tar.txt的内容
-        string[] inLines = File.ReadAllLines("D:\\zh.txt");
-        string[] tarLines = File.ReadAllLines("D:\\en.txt");
+        string[] inLines = File.ReadAllLines("zh.txt");
+        string[] tarLines = File.ReadAllLines("en.txt");
 
         if (inLines.Length != tarLines.Length)
         {
@@ -18,7 +18,7 @@ class Program
         }
 
         // 读取Lua源文件内容
-        string luaSource = File.ReadAllText("D:\\sch.lua");
+        string luaSource = File.ReadAllText("sch.lua");
 
         // 使用正则表达式查找双引号内的字符串
         string result = Regex.Replace(luaSource, "\"(.*?)\"", match =>
@@ -37,7 +37,7 @@ class Program
         });
 
         // 写入替换后的Lua源文件
-        File.WriteAllText("D:\\ensch.lua", result);
+        File.WriteAllText("ensch.lua", result);
 
         Console.WriteLine("替换完成。");
     }
